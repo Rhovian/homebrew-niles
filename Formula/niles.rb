@@ -1,25 +1,25 @@
 class Niles < Formula
   desc "Coordinate coding agents from different model families in tmux."
   homepage "https://github.com/Rhovian/niles"
-  version "1.9.0"
+  version "1.10.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Rhovian/niles/releases/download/v1.9.0/niles-aarch64-apple-darwin.tar.xz"
-      sha256 "eee58e37c14658e68115972c0af468a8a4ec62181a774398967fe4770039282f"
+      url "https://github.com/Rhovian/niles/releases/download/v1.10.0/niles-aarch64-apple-darwin.tar.xz"
+      sha256 "759aa024a5cee6d72f173159192cf2e6c353842a56fd53947add824ebe05ade4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Rhovian/niles/releases/download/v1.9.0/niles-x86_64-apple-darwin.tar.xz"
-      sha256 "db4ed54f8a01c06fa81763b31281eb728efec9a8679ddd4165e5c49fcdeecef0"
+      url "https://github.com/Rhovian/niles/releases/download/v1.10.0/niles-x86_64-apple-darwin.tar.xz"
+      sha256 "95732faa589d28fdfec3d096dfaa6a6579452790b97e7c71b234cec471b6ca40"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Rhovian/niles/releases/download/v1.9.0/niles-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cfb4f9c65b921ca422300085d6be8d580ac94e105a7df7d7335043a387222eec"
+      url "https://github.com/Rhovian/niles/releases/download/v1.10.0/niles-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1cc606b49d1b34391563baf56d42c8521b286c6c45066a0920e844f359136323"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Rhovian/niles/releases/download/v1.9.0/niles-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3449caeb2e3425f42caf735043b21af034cff3c182948ab98862bd727d7cda16"
+      url "https://github.com/Rhovian/niles/releases/download/v1.10.0/niles-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "22c3389dcd69925edf14aee45a5d4bc15106f503abe3991672fa84622f958685"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
